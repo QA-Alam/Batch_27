@@ -14,6 +14,11 @@ public void getEmployeeName();
 
 //incomplete method 
 public void getEmployeeAdress();
+
+//In the JAVA 1.8 version it is possible by using the default access modifier.
+default void getEmployeeDL() { 
+	
+}
 	
 	
 	
