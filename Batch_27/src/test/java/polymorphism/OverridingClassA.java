@@ -2,16 +2,16 @@ package polymorphism;
 
 public class OverridingClassA {
 
-	public void getProperty() {
+	protected void getProperty() {
 		
 	System.out.println("I am getting parents property by inherit");
 	}
 	
-    public void getCash() {
+	protected void getCash() {
     	System.out.println("I am getting Grandparents cash by inherit");	
 	}
     
-   public void getWife(String name) {
+	protected void getWife(String name) {
 	   
 		System.out.println("his wife name " + name);
 	   

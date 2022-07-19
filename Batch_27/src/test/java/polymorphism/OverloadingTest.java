@@ -5,15 +5,15 @@ package polymorphism;
 public class OverloadingTest { //compile time , static binding 
 
 	public void getEmployeeInfo(long type) {
-		System.out.println("EM info");
+		System.out.println("EM info" + type);
 	}
 	
-    public void getEmployeeInfo(String name) { 
+    public void getEmployeeInfo(char name) { 
 		System.out.println("Employee name: "+ name);
 	}
     
     public void getEmployeeInfo(int age) {
-		System.out.println("Employee age" + age);
+		System.out.println("Employee age " + age);
     	
 	}
     
@@ -29,7 +29,7 @@ public class OverloadingTest { //compile time , static binding
 		
     	OverloadingTest obj = new OverloadingTest();
     	obj.getEmployeeInfo(25);
-    	obj.getEmployeeInfo("Someone");
+    	obj.getEmployeeInfo('a');
     	obj.getEmployeeInfo(100);
     	
     	
