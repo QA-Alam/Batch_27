@@ -11,11 +11,15 @@ public class OverridingClassA {
     	System.out.println("I am getting Grandparents cash by inherit");	
 	}
     
-	protected void getWife(String name) {
+	protected static void getWife(String name) {
 	   
 		System.out.println("his wife name " + name);
 	   
 	}
+	
+	public static void getAnything() {
+		 System.out.println("Anything");
+	 }
    
    
    

@@ -17,9 +17,14 @@ public class MethodOverloading {
 	//*4.1 parameter 
 	//*4.2 non parameter
 	
+//What is the different between method and the constructor?	
 	
-//method and constructor overloading is possible 
+//1.method and constructor overloading is possible 
 //method overriding is possible but constructor overriding isn't possible
+
+	//2.
+	
+	//3.
 	
 	
 	MethodOverloading(int age){

@@ -14,11 +14,13 @@ public class LoginTest {
 	System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
 		
 		WebDriver driver = new ChromeDriver(); //Up Casting
+		//how you resize the browser in selenium?
+		//driver.manage().window().maximize();// For the maximize the window.
 		
-		driver.manage().window().maximize();// For the maximize the window.
+		
 		driver.get("https://www.zoopla.co.uk");//For get into the URL.
-		
-		driver.quit();// For closing the browser.
+		driver.manage().window().fullscreen();
+		//driver.quit();// For closing the browser.
 		
 	}
 	

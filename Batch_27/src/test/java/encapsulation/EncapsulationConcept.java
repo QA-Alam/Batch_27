@@ -20,7 +20,7 @@ public class EncapsulationConcept {
 		return courseFee;
 	} 
 	
-	
+	//finish with in the class
 	public static void main(String[] args) {
 		
 		EncapsulationConcept obj = new EncapsulationConcept();
