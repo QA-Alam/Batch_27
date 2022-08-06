@@ -15,7 +15,6 @@ Background:
 
 @smoke 
 @sanity
-@Regression
 Scenario: Valid user able to sell the product     # how to do 
 
        Given User able to open the any browser 

@@ -4,7 +4,18 @@ Description: "User able to login in the application with the valid credentials "
 
 @smoke 
 @sanity
-@Regression
+Scenario: valid User able to login the application with the valid credntials 
+       Given User able to open the any browser 
+       And   User able to enter the url
+       When  User able to click on the Sign in button
+       And   user able to enter the user name
+       And   user able to enter the password
+       And   User able to click on the login button  
+       Then  User able to verify the user information on the screen
+       
+
+     
+@Regression      
 Scenario: User able to login the application with the valid credntials   
        Given User able to open the any browser 
        And   User able to enter the url
@@ -13,6 +24,9 @@ Scenario: User able to login the application with the valid credntials
        And   user able to enter the password
        And   User able to click on the login button  
        Then  User able to verify the user information on the screen
+       
+
+
        
 
 

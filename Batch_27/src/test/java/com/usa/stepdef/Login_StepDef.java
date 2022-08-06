@@ -1,5 +1,6 @@
 package com.usa.stepdef;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -29,7 +30,7 @@ public class Login_StepDef extends SupperClass{
 
 	@When("^User able to click on the Sign in button$")
 	public void user_able_to_click_on_the_Sign_in_button()  {
-	    
+	    driver.findElement(By.linkText("Sign in")).click();
 	    
 	}
 
@@ -47,7 +48,7 @@ public class Login_StepDef extends SupperClass{
 
 	@When("^User able to click on the login button$")
 	public void user_able_to_click_on_the_login_button()  {
-	    
+	    driver.findElement(By.xpath("//button[@data-testid ='signin-button']")).click();
 	    
 	}
 
@@ -71,19 +72,19 @@ public class Login_StepDef extends SupperClass{
 
 	@Given("^User able to enter the url$")
 	public void user_able_to_enter_the_url()  {
-	    
+		 driver.get("https://www.zoopla.co.uk");
 	    
 	}
 
 	@When("^user able to enter the user name$")
 	public void user_able_to_enter_the_user_name()  {
-	    
+driver.findElement(By.id("email")).sendKeys("alammhommad97@gmail.com  ");
 	    
 	}
 
 	@When("^user able to enter the password$")
 	public void user_able_to_enter_the_password()  {
-	    
+	    driver.findElement(By.id("password")).sendKeys("SAYEDawan2008@");
 	    
 	}
 	
