@@ -12,6 +12,7 @@ public class JavaLoopingConcept {
 	     1.Basic loop (webElement)
 	     2.Advance loop or enhance loop  (webElement)
 	     3.While loop: Continues running (excel sheet), (dataBase handling)
+	     
 	     4.Do-while loop
 			
 	*/

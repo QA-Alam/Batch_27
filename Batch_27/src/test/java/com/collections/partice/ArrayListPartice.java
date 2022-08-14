@@ -17,13 +17,18 @@ public class ArrayListPartice {
 	public static void ArrayDisAdvantage() {
 		String [] names = {"smart" , "tech" , "batch", "27","prodan vai"};
 		
-		int [] number = {10,200,30,400,50,60};
+		int [] number = {10,20,1,22,100,60};
+	
+		Arrays.sort(number); //1,10,20,22,60,100
 		
-		for(int i = 0; i< number.length; i++ ) {
-			
-			System.out.println(number[7]);
-			
-		}
+		int min = number[0];
+		int max= number[(number.length)-1];
+		
+		System.out.println("The min is from number is "+ min);
+		
+		System.out.println("The max is from number is "+ max);
+	
+		
 			
 	}
 	
@@ -189,9 +194,12 @@ public static void LinkedListTest() {
 
 
 
+
+
+
 	
 	public static void main(String[] args) {
-		ArrayListPartice.printOutValueFromArrayList();
+		ArrayListPartice.ArrayDisAdvantage();
 	}
 	
 	
